@@ -1,9 +1,0 @@
-<h2>My favorite drinks</h2>
-<p id="p1">
-<ol type="A">
-<li>Flamin Hot Doritos</li>
-<li>Cool Ranch Doritos</li>
-<li>Blue Heat Takis</li>
-<li>Dill Pickle</li>
-</ol>
-</p>

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  height: 60px;
+  padding: 0 15px;
+  background: #600668;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header nav a, header nav span {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  z-index: 1;
+  width: 80px;
+  padding: 8px 0px;
+  text-align: center;
+  font-weight: bold;
+  transition: left .3s ease 0s;
+}
+header nav span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #adeaf5;
+  height: 100%;
+  z-index: 0;
+  border-radius: 8px;
+}
+header nav a:nth-of-type(1):hover ~ span {
+  left: 0px;
+}
+header nav a:nth-of-type(2):hover ~ span {
+  left: 80px;
+}
+header nav a:nth-of-type(3):hover ~ span {
+  left: 160px;
+}
+header nav a:nth-of-type(4):hover ~ span {
+  left: 240px;
+}
+header nav a:nth-of-type(5):hover ~ span {
+  left: 320px;
+}
+body{
+ background-image: url('../Image/coolBackgroundImage.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+border-radius: 5px;
+margin: 50px;
+}
+
+/* Added rounded corners to the corner of the image */
+img {
+border-radius: 5px 5px 5px 5px;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* padding inside the card */
+.container {
+padding: 15px 16px;
+}
+
+.row {
+display: flex;
+}
+
+.column {
+flex: 50%;
+}
+a { 
+  color: orange;
+  text-decoration: none;
+}
